@@ -52,7 +52,7 @@ def get_review(request, movie_id):
         return render(request, 'movies/review.html', {'form': form, 'movie_name': movie.title, 'movie_id': movie_id})
     else:
         #Direcciona a iniciar sesión
-        return redirect("http://44.222.13.15:8000/admin/login/")
+        return redirect("http://44.219.223.84:8000/admin/login/")
         
         #Función para el depliegue del index (índice)
 def index(request):
